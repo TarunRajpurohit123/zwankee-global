@@ -3891,7 +3891,7 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded,
   font-size: 10px !important;
   font-weight: 400 !important;
   display: flex;
-  font-weight:bold;
+  font-weight: bold;
 }
 .main-p-sl {
   display: inline-block !important;
@@ -3957,28 +3957,30 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded,
   bottom: -8px !important;
   z-index: 999 !important;
 }
-.main-block-left .btn-group{
-  display:none !important;
+.main-block-left .btn-group {
+  display: none !important;
 }
 
-  
-.main-block-left h3{
-  font-size:18px !important;
-  font-weight:bold !important;
+.main-block-left h3 {
+  font-size: 18px !important;
+  font-weight: bold !important;
 }
-.main-block-left .first-top{
-  font-size:18px !important;
-  font-weight:bold !important;
+.main-block-left .first-top {
+  font-size: 18px !important;
+  font-weight: bold !important;
 }
-#b2b-signup-link{
-  letter-spacing:1px !important;
+#b2b-signup-link {
+  letter-spacing: 1px !important;
 }
-.banner__box{
-  display:none !important;
+.banner__box {
+  display: none !important;
 }
 .error-message {
   font-size: 14px;
-  font-weight:bold;
+  font-weight: bold;
   color: red;
-  letter-spacing:1px !important;
+  letter-spacing: 1px !important;
+}
+.hide_section--mobile {
+  display: none !important;
 }

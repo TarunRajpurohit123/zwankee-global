@@ -18,7 +18,7 @@
     }
    }
 {%- endstyle -%}
-<div class="collection-list-block section-{{ section.id }}-padding">
+<div class="collection-list-block section-{{ section.id }}-padding {% if section.settings.isMobile %} hide_section--mobile {% endif %}">
   <div class="page-width cate-product-slider-pad">
     {% if section.settings.title != blank %}
       <div class="flex-header">
@@ -312,21 +312,26 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type":"checkbox",
+      "id":"isMobile",
+      "label":"Hide in mobile"
+    },
      {
             "type": "textarea",
             "id": "title",
             "label": "Section Title"
-          },
+      },
      {
             "type": "text",
             "id": "url",
             "label": "Label"
-          },
+    },
      {
             "type": "url",
             "id": "label",
             "label": "Label Link"
-          },
+    },
     {
       "type": "range",
       "id": "padding_top",
